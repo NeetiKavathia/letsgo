@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Eshop a Flat E-Commerce Bootstrap Responsive Website Template | Single :: w3layouts</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="../../public/app/css/bootstrapweb.css" rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="../../../../public/app/css/map.css"/>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../../public/app/js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="../../public/app/css/styleweb.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Eshop Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!--webfont-->
+    <!-- for bootstrap working -->
+    <script type="text/javascript" src="../../public/app/js/bootstrap-3.1.1.min.js"></script>
+    <!-- //for bootstrap working -->
+    <!-- cart -->
+
+    <!-- cart -->
+    <link rel="stylesheet" href="../../public/app/css/flexslider.css" type="text/css" media="screen"/>
+
+</head>
+<body>
+<!-- header-section-starts -->
+<div class="header">
+    <div class="header-top-strip">
+        <div class="container">
+            <div class="header-top-left">
+                <ul>
+                    <li><a href="">LET'S GO</a></li>
+
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/main" class="page-scroll">Home</a></li>
+                    <li><a href="#/eventfeed" class="page-scroll">Event Feed</a></li>
+                    <li><a href="#/profile" class="page-scroll">Profile</a></li>
+                    <li><a href="#/main" class="page-scroll">Team</a></li>
+
+                    <li><a href="#/main" class="page-scroll">Contact</a></li>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- header-section-ends -->
+<div class="inner-banner">
+    <div class="container">
+        <div class="banner-top inner-head">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="logo">
+                        <h1>{{data.name}}</h1>
+                    </div>
+                </div>
+
+            </nav>
+            <!--/.navbar-->
+        </div>
+    </div>
+</div>
+
+<div class="new-product">
+    <div class="col-md-5 zoom-grid">
+        <div class="flexslider">
+<img ng-src="{{data.imageurl[0]}}" data={{data._id}}  class="img-responsive" alt="" height: 420px;
+     width: 1345px;/>
+
+</div>
+    </div>
+    <!--<img ng-src="{{data.imageurl[0]}}" data={{data._id}}  class="img-responsive" alt="" height: 420px;-->
+         <!--width: 1345px;/>-->
+
+
+    <div class="col-md-7 dress-info">
+        <div class="dress-name">
+            <!--<h3>India Gate</h3>-->
+
+            <div class="clearfix"></div>
+            <p>{{data.description}}</p>
+        </div>
+        <div class="span span1">
+            <p class="left">Location :
+                <!--<img ng-src="{{data.imageurl[0]}}" data={{data._id}} align="left" class="img-responsive" alt="" height="160"-->
+                     <!--width="160"/>-->
+
+
+            <p class="right">{{data.location}}</p>
+
+            <div class="clearfix"></div>
+        </div>
+        <div class="span span2">
+            <p class="left">Price</p>
+
+            <p class="right">{{data.price}}</p>
+
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="span span3">
+            <p class="left">RATING</p>
+
+            <p class="right">
+
+            <div class="stars">
+                <form action="">
+                    <input class="star star-5" id="star-5" type="radio" name="star"/>
+                    <label class="star star-5" for="star-5"></label>
+                    <input class="star star-4" id="star-4" type="radio" name="star"/>
+                    <label class="star star-4" for="star-4"></label>
+                    <input class="star star-3" id="star-3" type="radio" name="star"/>
+                    <label class="star star-3" for="star-3"></label>
+                    <input class="star star-2" id="star-2" type="radio" name="star"/>
+                    <label class="star star-2" for="star-2"></label>
+                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                    <label class="star star-1" for="star-1"></label>
+                </form>
+            </div>
+            <!--<div ng-repeat="comment in data.reviews">-->
+            <!--<li>{{comment.username}}</li>-->
+
+            <!--<li>{{comment.comment}}</li>-->
+
+            <!--</div>-->
+
+            </p>
+            <div class="clearfix"><a href="" class="btn btn-primary"><span class="fa fa-facebook"></span> Share</a></div>
+            <div class="clearfix"><a href="" ng-click="addtofav() "  class="btn btn-primary"><span class="fa fa-facebook"></span> Add to favourites</a></div>
+
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="clearfix"></div>
+</div>
+
+
+<!-- FlexSlider -->
+<script src="../../public/app/js/jquery.flexslider.js"></script>
+<div>
+    <script>
+        // Can also be used with $(document).ready()
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                controlNav: "thumbnails"
+            });
+        });
+    </script>
+</div>
+
+<div>
+    <div id="map"></div>
+    <div id="class" ng-repeat="marker in markers | orderBy : 'title'">
+        <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
+    </div>
+</div>
+<div class="reviews-tabs">
+    <ul class="nav nav-tabs responsive hidden-xs hidden-sm" id="myTab">
+
+        <li class="test-class">Comments</li>
+        <br>
+
+
+        <div ng-repeat="comment in data.reviews">
+
+            <div class="media response-info">
+                <div class="media-left response-text-left">
+                    <a href="#">
+                        <img class="media-object" src="../../public/app/images/icon1.png" alt=""/>
+                    </a>
+                    <h5><a href="#">{{comment.username}}</a></h5>
+                </div>
+                <div class="media-body response-text-right">
+                    <p>{{comment.comment}}.</p>
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <form   ng-submit="postcomment()">
+            <div>
+<textarea  id="comments" style="font-family:sans-serif;font-size:1.2em;" ng-model="user.content" name="content">
+
+</textarea>
+            </div>
+            <input type="submit" value="Submit" >
+        </form>
+
+</div>
+
+</ul>
+
+</div>
+<div class="clearfix"></div>
+</div>
+<!--</div>-->
+
+<!--<div class="cards text-center">-->
+    <!--<img src="../../public/app/images/cards.jpg" alt=""/>-->
+<!--</div>-->
+
+<!--</div>-->
+</div>
+
+<script src="../../public/app/js/responsive-tabs.js"></script>
+<script type="text/javascript">
+    $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+
+    $('#moreTabs a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+
+    (function ($) {
+        // Test for making sure event are maintained
+        $('.js-alert-test').click(function () {
+            alert('Button Clicked: Event was maintained');
+        });
+        fakewaffle.responsiveTabs(['xs', 'sm']);
+    })(jQuery);
+
+</script>
+
+</body>
+</html>
